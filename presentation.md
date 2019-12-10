@@ -6,8 +6,6 @@ autoscale: true
 footer: @pburkholder
 build-lists: true
 
----
-
 # Mnemonic Rules for Eponymous Laws
 
 ---
@@ -16,27 +14,35 @@ build-lists: true
 
 ---
 
-![inline](100myths.png)
-
-^ Brook, Conway, Murphy
+> We're running late so, we're adding more engineers to hit the deadline
 
 ---
 
-# Brook's Law
+![inline](jschauma.png)
+
+---
+
+![inline](100myths.png)
+
+^ Brooks, Conway, Murphy
+
+---
+
+# Brooks's Law
 
 * Adding people to a late software project makes it later,
 * The **brook** went over the waterfall
+* Fred Brooks
 
-^ Fred Brook, Mythical Man Month. But this may no longer be true!
+^ Fred Brooks, Mythical Man Month. But this may no longer be true!
 
 ---
 
 # Conway's Law
 
-* Organizations design systems which mirror their own communication structure
-* We **Con**struct systems that mirror the **Way** we communite
-
-^ Melvin Conway
+* Organizations which design systems…are constrained to produce designs which are copies of the communication structures of these organizations"
+* We **Con**struct systems that mirror the **Way** we communicate
+* Melvin Conway
 
 ---
 
@@ -44,8 +50,9 @@ build-lists: true
 
 * Whatever can go wrong, will
 * (I have no mnemonic yet)
+* Edward Murphy, 1952
 
-^  measurement devices developed by Edward Murphy, coined 1952
+^measurement devices developed by Edward Murphy, coined 1952
 
 ---
 
@@ -53,8 +60,7 @@ build-lists: true
 
 * Computing power doubles every two years
 * Every two years, we have **more** computing power
- 
-^Gordon Moore of Intel
+* Gordon Moore
 
 ---
 
@@ -63,8 +69,12 @@ build-lists: true
 * Network value is proportional to the square of the number of connected users
 * Visualize the communication network of, say, New York
 * The **Met**ropolitan **Cal***(f)l network value grows with user numbers
+* Bob Metcalf
 
-^ Bob Metcalf, ethernet
+---
+
+# [fit] Maybe the real value of a network
+# [fit] is that we **met** a **calf** along the way
 
 ---
 
@@ -82,10 +92,11 @@ build-lists: true
 
 ---
 
-# Hofstader's Law
+# Hofstadter's Law
 
 * It always takes longer than you expect, even when you take into account Hofstadter’s Law.
 * **Ha!** **Later...**
+* Douglas Hofstatder
 
 ---
 
@@ -93,12 +104,37 @@ build-lists: true
 
 * As an online discussion grows longer, the probability it will involve Nazis approaches 1
 * In online discussions, **Go(o)d** never **Wins**
-
-^ Mike Godwin, 1980
+* Mike Godwin, 1980
 
 ---
 
 ![inline](godwin.png)
+
+---
+
+# Quiz
+
+---
+
+# Q:
+
+* We've added a DevOps team and now we're further behind schedule
+
+---
+
+# A:
+
+* Brooks's Law 
+* `¯\_(ツ)_/¯ `
+* Conway's Law
+
+---
+
+![inline](hofstadters_law_q.png)
+
+---
+
+![inline](hofstadters_law_a.png)
 
 ---
 
@@ -108,6 +144,6 @@ build-lists: true
 
 # Laws I haven't added yet
 
-* Miller's Law
-* Overton Window
-    * 
+* Miller's Law: To understand, you must believe
+* Goodhart's Law: When a measure becomes a target, it ceases to be a good measure.
+* Gall's Law: Every working complex system was first a working simple system
