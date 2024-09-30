@@ -147,3 +147,24 @@ build-lists: true
 * Miller's Law: To understand, you must believe
 * Goodhart's Law: When a measure becomes a target, it ceases to be a good measure.
 * Gall's Law: Every working complex system was first a working simple system
+
+
+# Gall's Law
+
+ohn Gall is best known for his 1975 book _General Systemantics: an essay on how systems work, and especially how they fail_. He originally formulated his observation as:
+
+> A complex system that works is invariably found to have evolved from a simple system that worked. A complex system designed from scratch never works and cannot be patched up to make it work. You have to start over with a working simple system.
+> 
+That's too long, so I prefer the shorter version above. As for my mnemonic rule:
+
+> A worm's gut is simple because it eats constantly, however, we've evolved a GALL bladder for our more complex needs and big meals.
+> 
+
+# Q:
+This proposed architecture is too complex [you, thinking: _This is 💩_]. We'll have to start with simpler initial solution, otherwise we'll be attempting to violate _____  ____
+
+* Me: Okay - let's fill in the blank on three:  one… two… three
+
+# A: 
+
+GALL'S LAW: 
