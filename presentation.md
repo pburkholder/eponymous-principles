@@ -194,7 +194,7 @@ lived experience and has predictive value.
 
 # Speaking of predictive value...
 
-![inline](media/CloudFactoryToday.png)
+![inline](media/CloudFate.png)
 
 
 ---
@@ -248,21 +248,6 @@ the more work slows down.
 
 ---
 
-# Javelins Paradox
-
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Javeleer.png/280px-Javeleer.png)
-
-As the throwing rate of javelineers in ancient Roman armies doubled
-they went from 1/5 of a brigade to 1/3.
-
-One would expect the number to _decrease_
-because the same number would already throw TWICE as
-many.
-
-^Oops, I got that backwards. That's the mnemonic... not the law...
-
----
-
 # Jevons' Paradox
 
 As the cost of economically useful commodity decreases,
@@ -279,6 +264,18 @@ total expenditure on the commodity grows
 ^ If anyone you're talking to thinks cloud spend is going to go
 down, brandish this. Cloud spend provides returns on your spend
 that simply encourage more spend. Same with Coal, and fuel efficiency.
+
+---
+
+Jevons' Paradox illustrated
+
+---
+
+Jevons' Paradox mnemonic
+
+---
+
+&nbsp;
 
 ---
 
@@ -310,13 +307,57 @@ year, makes me think...
 
 ---
 
+Pareto Principle illustrated
+
+---
+
+Chesterton's Fence 1
+
+---
+
+Chesterton's Fence 2
+
+---
+
+Chesterton's Fence 3
+
+---
+
 <!--- >
 ###
 ### FPEC SLIDES 
 ###
 -->
 
+FPEC Overton Window
 
+---
+
+FPEC Dunning Kruger 
+
+
+---
+
+FPEC Cranstoning
+
+cf. Yak Shaving
+
+---
+
+FPEC Goodhart's Law
+
+
+--- 
+
+FPEC Hanlon's Razor
+
+---
+
+Metcalf's Law and the success of FPEc
+
+---
+
+G.I. Joe Fallacy
 
 
 <!--- >
@@ -334,6 +375,7 @@ year, makes me think...
 * ~~Predictive or explanatory value~~
 * Build Community
 
+---
 
 # Meme Laws
 
@@ -477,12 +519,6 @@ sprints, so by **Pareto Principle** we'll need another
 
 And laws to look forward to in a future version
 
-* G.I. Joe Fallacy
-* Dunning-Kruger Effect
-* Goodhart's Law
-* Hanlon's Razor
-* Overton Window
-* Metcalf's Law
 
 [.build-lists: false]
 
@@ -492,8 +528,3 @@ And laws to look forward to in a future version
 
 * This talk: https://github.com/pburkholder/eponymous-principles
 * Laws of Software: <https://laws-of-software.com>
-
-
-
-
-
