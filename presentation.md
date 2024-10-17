@@ -310,6 +310,22 @@ year, makes me think...
 
 ---
 
+<!--- >
+###
+### FPEC SLIDES 
+###
+-->
+
+
+
+
+<!--- >
+###
+### END FPEC SLIDES 
+###
+-->
+---
+
 # Meme Laws
 
 * ~~True - with empirical evidence~~
@@ -318,24 +334,6 @@ year, makes me think...
 * ~~Predictive or explanatory value~~
 * Build Community
 
----
-
-# Godwin's Law
-
-* As an online discussion grows longer, the probability it will involve Nazis approaches 1
- . * _Mike Godwin, 1980_
-* In online discussions, **Go(o)d** never **Wins**
-
-^ While true in our lived experience, 
-it doesn't have useful predictive or explanatory value. Still
-it let's us appreciate the Internet's finer moments such as:
-
----
-
-![inline](godwin.png)
-
-
----
 
 # Meme Laws
 
@@ -369,7 +367,6 @@ That system diagram we saw in the beginning? How far from completion do you thin
 
 ^Predictive value: If you come across this: insist that is solve 1 problem for 1 user in 1 month.
 (The TTS DevTools team is living this with their work on Rails Template)
-
 
 ---
 
