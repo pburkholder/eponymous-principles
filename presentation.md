@@ -335,7 +335,6 @@ FPEC Overton Window
 
 FPEC Dunning Kruger 
 
-
 ---
 
 FPEC Cranstoning
@@ -345,7 +344,6 @@ cf. Yak Shaving
 ---
 
 FPEC Goodhart's Law
-
 
 --- 
 
