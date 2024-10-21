@@ -105,6 +105,8 @@ crap and the eons long evolution of poop, that is:
 
 ---
 
+![right,fit,original](./media/digestion.png)
+
 # Evolution of Digestion and 💩
 
 * Worm Digestion: 
@@ -112,7 +114,7 @@ crap and the eons long evolution of poop, that is:
   * Eat continually, liver produces bile continuously
 * Human digestion:
   * A complex systems that works
-  * We eat big meals, liver stores bile in the **GALL** bladder
+  * We eat big meals, liver stores bile in the **GALL**bladder
 * **Gall**: Mnemonic for ...
 
 
@@ -130,16 +132,6 @@ its available to digest those meals.
 worked
 
 ^And now we have our Mnenomic for ...
-
----
-
-## point line 
-## point two 
-
-![right,fit](./media/human_digestion%20copy.png)
-![left,fit](./media/invertebrate_digestion.png)
-
----
 
 ^ Roundworm: https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Introductory_Biology_(CK-12)/11%3A_Invertebrates/11.01%3A_Invertebrate_Characteristics
 ^ Human: https://bio.libretexts.org/Bookshelves/Human_Biology/Human_Biology_(Wakim_and_Grewal)/18%3A_Digestive_System/18.3%3A_Digestion_and_Absorption
@@ -171,19 +163,14 @@ Gall's Law:
 
 ^Hi, I'm Peter Burkholder, and welcome to Mnemonic Rule for Eponymous
 Principles. I'm currently a customer success engineer for Cloud.gov, the
-US Government's Platform-as-a-Service for Public Servants. Before going to
-work for .gov 8 years ago I worked for Chef Software, a few other startups, 
-and before that, for research labs including the US National Institutes of
-Health, Nat'l center for atmospheric researth, the Pacific NW Seismic Network
+US Government's Platform-as-a-Service for Public Service. Before that, 
+I worked at Chef, Audax Health, the US National Institutes of
+Health and various labs 
 because I first came into Unix administration as a graduate student in 
 seismology.
 
 ^I'm glad to be here today to share with you the eponymous principles I have found 
 useful in my work, and the mnemonic tricks I use to call them up, some context on how to apply them.
-
-^Caveat: Some of my mnemonic tricks are weird, stupid, embarrassing or all three.
-You may want to come up with your own. Because I think there's real power
-to eponymous principles
 
 ---
 
@@ -230,6 +217,9 @@ lived experience and has predictive value.
 
 ![inline](media/CloudFate.png)
 
+^Indeed, as I expected, the overburdend overcomplex CloudFactory
+service collapsed under it's own weight, demonstrating, if not
+proving, Gall's Law. So on to our tour of other laws:
 
 ---
 
