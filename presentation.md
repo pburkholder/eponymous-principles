@@ -10,77 +10,98 @@ build-lists: true
 
 * SRECon EMEA 2024
 
-^A brief history of this talk....
+^Good afternoon and thanks for being here. 
+I put together the original version of this
+as a lightning talk for internal audience a few
+years back, and since then I've been thinking, there's some
+real meat here, because it's helped me handle
+situations like this:
 
 ---
 
 # Brace yourself...
 
 
-^ In 2017 I was a consulting engineer with 18F/cloud.gov
-and I started crossing paths with a team at the DHS CTO
-office that was just getting started building a "CloudFactory" as the 
-eventual platform on which DHS development teams would
-build, test and run their products.
+^ In 2019 I was a consulting engineer within the US Gov
+and I started crossing paths with the CTO team at a US Government
+Department that was building a "CloudFactory" on which`
+development teams would build, test and run their products. The idea
+they couldn't just hand over AWS/Azure/GCP accounts to teams, they
+had to work through their "platform"
 
 ^The system diagram looked something like this slide
 where basically everything from the DevOps landscape
-had been vomited up into tiered system. And my heart sank.
+had been vomited up into a tiered system. And my heart sank.
 
 ---
 
 ![inline](media/CloudFactorySystemDiagram.png)
 
-^"And how is this working out for customers already working
-with this system?" I asked.
+^ It may be hard to see, but from the bottom up, you see, data 
+centers, AND cloud. Windows, and Linux. CloudFoundry AND Openshift AND 
+Kubernetes. Name a Database - there it is. SaaS and PaaS and IaaS.
 
-^And I think you can guess the answer: They had none
+^ The stated goals were to be developer-friendly and delivery-
+focussed with built-in security and compliance.
 
-^I knew that this project was destined to fail (spoiler alert: it
-did), and I knew that from working on teams that practiced agile 
-development and lean product design -- and from working myself on
-projects that failed.
+^So I asked: "And how is this working out for customers ALREADY working
+with this system?" 
 
-^But I wasn't in a position launch into a deep critique of their
-approach, and I wished there was a pithy way to point out the
+^And as you might fear: They had no users, and they had no user 
+experience team. They we're going to build the system, and it would "just work"
+
+^I sensed that this project was destined to fail.
+I knew that from working on teams that practiced lean product
+design the importance of getting real customers onto a system
+as soon as it provided a working experience.
+
+^I wasn't in a position to critique their
+approach, but I wished there was a pithy way to point out the
 fundamental misstep they had made.
 
 ---
 
 # What I said:
 
-* How many customers do you have?
-* Yada, yada, Agile Development, blah, blah, blah, Lean Enterprise, ...
+* How are you focussing on user experience without any users?
+* Yada, yada, Agile Development... Blah, blah, blah, Lean Enterprise, etc.
 
 # What I needed:
 
-* Eponymous Principle
-  * a law named for a person (from Greek eponymos "given as a name")
-* Mnemonic Rule:
-  * a trick for recall (from Greek mnēmē "memory")
+* Eponymous Principle:  a law named for a person (from Greek eponymos "given as a name")
+* Mnemonic Rule:  a trick for recall (from Greek mnēmē "memory")
+
+^ I need to reference a well-established eponymous principle,
+that is, a one named for a person, from the Greek,
+and I would've also need a trick to recall said rule, from the Greek.
+
+^ So about mnemonic tricks, I like this quote:
 
 ---
 
 # Mnemonic Tricks
 
-"To build a memory ... it has to be a little bit weird"
-- Per Sederberg (Ohio State University)
+> To build a memory ... it has to be a little bit weird
+-- Per Sederberg (Univeristy of Virginia)
 
-* Good mnemonics are weird, perhaps a little gross, or embarrassing.
-* Make them work for you
-
-^They stick in your memory. So my though process now would run something like this:
+^ Good mnemonics are weird, perhaps a little gross, or embarrassing.
+^ They stick in your memory. Make them work for you. 
+^ So my though process now would run something like this: 
+<!-- Per was at OSU in mid-2017, joined UVA in fall of 2017 -->
 
 ---
 
 ![inline](media/CloudFactorySystemDiagram.png)
+
+^ I see a hopelessly complex system diagram, and 
+atop that, I visualize a poo emoji.
 
 ---
 
 ![inline](media/CloudFactoryPoo.png)
 
 ^poop. and not just metaphorical poo but I ponder literal
-crap and the eons long
+crap and the eons long evolution of poop, that is:
 
 ---
 
@@ -96,9 +117,9 @@ crap and the eons long
 
 
 ^Evolution of Crap and the evolution of digestive systems. Because millions 
-of years the precursor to our dig system would've been akin to
+of years ago the precursor to our digestive system would've been akin to
 a worms's digestive system, where the worm is continually eating,
-the liver is continually producing bile, and the lower intestine
+the liver is continually producing bile to for digestion, and the lower intestine
 is continually pooping.
 
 ^By contrast, we don't eat continually. We eat meals, sometimes big ones,
@@ -108,7 +129,20 @@ its available to digest those meals.
 ^It's a complex system that works, that evolved from a simple system that
 worked
 
-^And now we have our Mnenomic for 
+^And now we have our Mnenomic for ...
+
+---
+
+## point line 
+## point two 
+
+![right,fit](./media/human_digestion%20copy.png)
+![left,fit](./media/invertebrate_digestion.png)
+
+---
+
+^ Roundworm: https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Introductory_Biology_(CK-12)/11%3A_Invertebrates/11.01%3A_Invertebrate_Characteristics
+^ Human: https://bio.libretexts.org/Bookshelves/Human_Biology/Human_Biology_(Wakim_and_Grewal)/18%3A_Digestive_System/18.3%3A_Digestion_and_Absorption
 
 ---
 
