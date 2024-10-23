@@ -3,7 +3,7 @@ slide-transition: true
 slide-transition: fade(0.2)
 slidenumbers: true
 autoscale: true
-footer: @pburkholder
+footer: @pburkholder, 2024 SRECon EMEA
 build-lists: true
 
 # Mnemonic Rules for Eponymous Laws
@@ -35,7 +35,7 @@ had been vomited up into a tiered system. And my heart sank.
 
 ---
 
-![inline](media/CloudFactorySystemDiagram.png)
+![inline](media/CloudFoobarySystemDiagram.png)
 
 ^ It may be hard to see, but from the bottom up, you see, data 
 centers, AND cloud. Windows, and Linux. CloudFoundry AND Openshift AND 
@@ -84,28 +84,28 @@ and I would've also need a trick to recall said rule, from the Greek.
 > To build a memory ... it has to be a little bit weird
 -- Per Sederberg (Univeristy of Virginia)
 
-^ Good mnemonics are weird, perhaps a little gross, or embarrassing.
-^ They stick in your memory. Make them work for you. 
-^ So my though process now would run something like this: 
-<!-- Per was at OSU in mid-2017, joined UVA in fall of 2017 -->
+^ weird, gross, or embarrassing.
+Make them stick. 
+Make them work
+My thought process now
 
 ---
 
-![inline](media/CloudFactorySystemDiagram.png)
+![inline](media/CloudFoobarySystemDiagram.png)
 
 ^ I see a hopelessly complex system diagram, and 
 atop that, I visualize a poo emoji.
 
 ---
 
-![inline](media/CloudFactoryPoo.png)
+![inline](media/CloudFoobaryPoo.png)
 
 ^poop. and not just metaphorical poo but I ponder literal
 crap and the eons long evolution of poop, that is:
 
 ---
 
-![right,fit,original](./media/digestion.png)
+![right,original](./media/worm_on_plant.png)
 
 # Evolution of Digestion and 💩
 
@@ -116,25 +116,6 @@ crap and the eons long evolution of poop, that is:
   * A complex systems that works
   * We eat big meals, liver stores bile in the **GALL**bladder
 * **Gall**: Mnemonic for ...
-
-
-^Evolution of Crap and the evolution of digestive systems. Because millions 
-of years ago the precursor to our digestive system would've been akin to
-a worms's digestive system, where the worm is continually eating,
-the liver is continually producing bile to for digestion, and the lower intestine
-is continually pooping.
-
-^By contrast, we don't eat continually. We eat meals, sometimes big ones,
-and the bile produced by our liver is stored in our Gall bladder so
-its available to digest those meals. 
-
-^It's a complex system that works, that evolved from a simple system that
-worked
-
-^And now we have our Mnenomic for ...
-
-^ Roundworm: https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Introductory_Biology_(CK-12)/11%3A_Invertebrates/11.01%3A_Invertebrate_Characteristics
-^ Human: https://bio.libretexts.org/Bookshelves/Human_Biology/Human_Biology_(Wakim_and_Grewal)/18%3A_Digestive_System/18.3%3A_Digestion_and_Absorption
 
 ---
 
@@ -201,15 +182,15 @@ business continuity plans and much else the SRE community does.
 
 # What makes for a good eponymous principle?
 
-* True - with empirical evidence
+* True - with empirical evidence, or
 * True - with weight of lived experience
 * Predictive or explanatory value
 
-^ So, in addition to having "truthiness" is should 
+^ So, in addition to having "truth value it should 
 also have predictive or explanatory value
 
-^ Consider Gall's Law in this light: It is theoretically true, and true from
-lived experience and has predictive value. 
+^ Consider Gall's Law in this light: It is true from
+lived experience and has predictive value.
 
 ---
 
@@ -245,11 +226,10 @@ value. Consider the .... (next slide)
 * Tech: Used bounded contexts and APIs along team bounds
 * Orgs: Consider _Team Topologies_ (Skelton & Pais, 2019)
 
-(image: Team Topology cover)
+![right,56%](./media/team_topologies.png)
 
-^This technique was named by Thoughtworks in a blog post form 2015.
-To apply this, you should definitely consider reading Team Topologies,
-the book and the website, by Matthew Skelton & Manuel Pais, 2019
+^Thoughtworks blog post 2015.
+Matthew Skelton & Manuel Pais, 2019
 
 --- 
 
@@ -260,6 +240,8 @@ the book and the website, by Matthew Skelton & Manuel Pais, 2019
 * _Fred Brooks, 1975, The Mythical Man Month_
 * Mnemonic: The **BROOK** went over the waterfall
 * Why: onboarding time + geometrical growth in communication lines
+
+![right](./media/waterfall.png)
 
 ^This is not true just of Waterfall development, but 
 Agile too, and there's good theoretical reasons. While a dam
@@ -274,32 +256,27 @@ the more work slows down.
 
 # Jevons' Paradox
 
-As the cost of economically useful commodity decreases,
+> As the cost of an economically useful commodity decreases,
 total expenditure on the commodity grows
+-- _William Stanley Jevons, 1865_
 
-* _William Stanley Jevons, 1865_
-* Mnenomic: Something to do with ancient javelineers
-* Examples: 
+
+![right,fit](./media/jevon.png)
+
+* Examples:
   * 1860s: Coal
   * 1970s: Automobile fuel efficiency
   * 2010s: Cloud spend
 * See also: Moore's Law
 
+^ James Watt had recently introduced his steam engine and some economists 
+were forecasting an end to the worsening pollution as the efficiency 
+of Watt’s new engine reduced the amount of coal burned for any given task.
+
 ^ If anyone you're talking to thinks cloud spend is going to go
 down, brandish this. Cloud spend provides returns on your spend
 that simply encourage more spend. Same with Coal, and fuel efficiency.
 
----
-
-Jevons' Paradox illustrated
-
----
-
-Jevons' Paradox mnemonic
-
----
-
-&nbsp;
 
 ---
 
@@ -335,11 +312,27 @@ Pareto Principle illustrated
 
 ---
 
-Chesterton's Fence 1
+> If you don’t see the use of [a fence], I certainly won’t let you clear it away. Go away and think. 
+> <br>
+> Then, when you can come back and tell me that you do see the use of it, I may allow you to destroy it.
+-- G. K. Chesterton, 1929
+
+^ The Foolish Reformer will remove any fence in their way
+
+^ The Intelligent Reformer will say:
 
 ---
 
-Chesterton's Fence 2
+# Chesterton's Fence
+
+Do not remove a fence until you know why it was put up in the first place.
+
+* Mnemonic: That **CHEST** behind the **FENCE** - it may be a danger!
+* Application:
+  * Comments, ADRs (Architectural Decision Records), PRs
+  * Employee Retention
+
+![left](./media/fence.png)
 
 ---
 
@@ -402,13 +395,17 @@ G.I. Joe Fallacy
 # Meme Laws
 
 * Cunningham's Law
-  * "The best way to get the right answer on the internet is not to ask a question; it's to post the wrong answer."
-  * _Ward Cunningham_
+
+   "The best way to get the right answer on the internet is not to ask a question; it's to post the wrong answer."
+  -- _Ward Cunningham_
   * Mnemonic: Knowledge is COMING HOME when you post the wrong answer
 * Hofstadter's Law
-  * "It always takes longer than you expect, even when you take into account Hofstadter’s Law."
-  * _Douglas Hofstatder, 1979_ (image: GEB cover)
+
+   "It always takes longer than you expect, even when you take into account Hofstadter’s Law."
+  -- _Douglas Hofstatder, 1979_ 
   * Mnemonic: **Ha!** **Later...**
+
+![right, fit](./media/GodelEscherBach_well_loved.jpg)
 
 ^TEXT: Then: Hofstader's Law may not be a  meme law, nor are 
 laws that are corollarys to it, can straddle between meme laws
@@ -550,3 +547,26 @@ And laws to look forward to in a future version
 
 * This talk: https://github.com/pburkholder/eponymous-principles
 * Laws of Software: <https://laws-of-software.com>
+
+
+---
+
+Image rights
+
+* System schematics. Work of U.S. Government, no copyright. Redacted image cleared for use March 22, 2019
+* Cover of Godel, Escher, Bach. Image taken by Peter Burkholder. Copyright of the cover
+  is held by the Hatchette Group. Per https://www.hachettebookgroup.com/about/faqs/#copyright, 
+  > If you deem a usage to fall under “fair use” as established by the U.S. Copyright Office, you do not 
+  > need to request permission from us
+  This use is Fair Use in a factual context (see also: https://psu.libanswers.com/faq/336502, 
+  esp: "they encourage free use of those images to promote their books)
+* Cover to Team Topologies, with permission of IT Revolution
+* Worm on a plant, https://unsplash.com/photos/a-close-up-of-a-worm-on-a-plant-q30JT3lT91o, used under the UnSplash License
+* System Diagrams: US 
+* Digestion 
+* Roundworm: https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Introductory_Biology_(CK-12)/11%3A_Invertebrates/11.01%3A_Invertebrate_Characteristics
+* Human: https://bio.libretexts.org/Bookshelves/Human_Biology/Human_Biology_(Wakim_and_Grewal)/18%3A_Digestive_System/18.3%3A_Digestion_and_Absorption
+* Fence: (C) 2024 Allie Burkholder, used with permission
+* Brook: (C) 2024 James C Brooks, used with permission
+* Jevon's Law: Redrawn from https://www.monitordaily.com/article-posts/jevons-paradox-meets-moores-law-why-ai-will-drive-more-hiring-in-equipment-finance/
+  * with Futura
