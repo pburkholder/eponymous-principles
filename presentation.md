@@ -21,7 +21,7 @@ build-lists: true
 
 ^ System diagram
 ^ In 2019 Cloud Foobar
-^ CTO and Platform
+^ CTO and Platform Team
 ^ System diagram and devops vomit
 
 ---
@@ -111,7 +111,8 @@ crap and the eons long evolution of poop, that is:
 
 * Peter Burkholder _(he/him)_
 * US Gov (Cloud.gov), Chef Software, Audax Health, AARP, NIH, Research Labs
-* Geophysicist / Seismologist
+* Geophysicist / Seismologist / Physics Teacher
+* So: THERE WILL BE A **QUIZ**
 
 [.build-lists: false]
 
@@ -134,13 +135,6 @@ useful in my work, and the mnemonic tricks I use to call them up, some context o
 rhetorical "argument from authority" but should have
 the backing of experience and empirical evidence. 
 
-^You can't really argue w/ Newton's law (unless relativistic)
-
-^ Murphys Law - true in experience, basis of our work
-
-^And Moore's Law (paraphrased here) has mostly held true for over 50 years
-and helps us anticipate
-
 
 ---
 
@@ -154,7 +148,7 @@ and helps us anticipate
 also have predictive or explanatory value
 
 ^ Consider Gall's Law in this light: It is true from
-lived experience and has predictive value.
+lived experience and has PREDICTIVE VALUE.
 
 ---
 
@@ -162,7 +156,7 @@ lived experience and has predictive value.
 
 ![inline](media/CloudFate.png)
 
-^ 2 Weeks! Over budget
+^ 2 Weeks provisioning! Over budget
 ^ Collapsed
 ^ on to our tour of other laws:
 
@@ -174,13 +168,13 @@ lived experience and has predictive value.
 
 * _Melvin Conway, 1968_
 * Or: Your architecture will mirror your org chart
-* _Mnemonic_: We **CON**struct systems mirroring the **WAY** we communicate
-* Application: ... next slide ...
+* _Mnemonic_: We **CON**struct systems mirroring the **WAY** we communicate (👷🏽‍♀️➡️)
+* Application: ...
 
 ^Pathological organization cultures and structures
-will result in pathological technical systems. This is true
-by weight of lived experience AND is has predictive/explantory
-value. Consider the .... (next slide)
+will result in pathological technical systems. 
+
+^ True by Experience, Predictive Value
 
 ---
 
@@ -514,8 +508,17 @@ Response: Sorry, but are you familiar with **Jevons' Paradox**??
 
 # Thank you
 
+Summary Slide
+
+
 And laws to look forward to in a future version
 
+* Overton Window
+* G.I. Joe Fallacy
+* Dunning Kruger
+* Metcalf's Law
+* Parkinson's Law
+* Goodhart's Law
 
 [.build-lists: false]
 
