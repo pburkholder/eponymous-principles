@@ -280,6 +280,17 @@ that simply encourage more spend. Same with Coal, and fuel efficiency.
 
 ---
 
+# Jevons' Mnemonic
+
+* As price goes down
+  **J**ust **EVEN** more demand
+* Falling **JAVE**lin goes ever farther
+
+![left](./media/javeleer.png)
+![right](./media/jevon_mnemonic.png)
+
+---
+
 # Pareto Principle
 
 "the vital few and the useful many" (or the 80/20) rule
@@ -570,3 +581,5 @@ Image rights
 * Brook: (C) 2024 James C Brooks, used with permission
 * Jevon's Law: Redrawn from https://www.monitordaily.com/article-posts/jevons-paradox-meets-moores-law-why-ai-will-drive-more-hiring-in-equipment-finance/
   * with Futura
+* Javeleer: https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Javeleer.png/640px-Javeleer.png
+* 
