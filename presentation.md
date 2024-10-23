@@ -347,52 +347,6 @@ Do not remove a fence until you know why it was put up in the first place.
 
 ---
 
-Chesterton's Fence 3
-
----
-
-<!--- >
-###
-### FPEC SLIDES 
-###
--->
-
-FPEC Overton Window
-
----
-
-FPEC Dunning Kruger 
-
----
-
-FPEC Cranstoning
-
-cf. Yak Shaving
-
----
-
-FPEC Goodhart's Law
-
---- 
-
-FPEC Hanlon's Razor
-
----
-
-Metcalf's Law and the success of FPEc
-
----
-
-G.I. Joe Fallacy
-
-
-<!--- >
-###
-### END FPEC SLIDES 
-###
--->
----
-
 # Meme Laws
 
 * ~~True - with empirical evidence~~
@@ -404,6 +358,25 @@ G.I. Joe Fallacy
 ---
 
 # Meme Laws
+
+* Hanlon's Razor
+
+  "Never attribute to malice what is better explained by incompetence"
+  -- Apocraphally __Robert A. Heinlein__
+* Cranstoning
+  -- See also "Yak Shaving"
+
+![right,fit](./media/puppetmasters.jpg)
+
+---
+
+Cranstoning
+
+![](https://www.youtube.com/watch?v=AbSehcT19u0)
+
+---
+
+# Meme Laws (cont.)
 
 * Cunningham's Law
 
