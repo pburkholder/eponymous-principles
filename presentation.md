@@ -9,55 +9,34 @@ build-lists: true
 # Mnemonic Rules for Eponymous Laws
 
 * SRECon EMEA 2024
+* Peter Burkholder
 
-^Good afternoon and thanks for being here. 
-I put together the original version of this
-as a lightning talk for internal audience a few
-years back, and since then I've been thinking, there's some
-real meat here, because it's helped me handle
-situations like this:
+[.build-lists: false]
+
+^Good afternoon and thanks for being here. Let's dive in...
 
 ---
 
 # Brace yourself...
 
-
-^ In 2019 I was a consulting engineer within the US Gov
-and I started crossing paths with the CTO team at a US Government
-Department that was building a "CloudFactory" on which`
-development teams would build, test and run their products. The idea
-they couldn't just hand over AWS/Azure/GCP accounts to teams, they
-had to work through their "platform"
-
-^The system diagram looked something like this slide
-where basically everything from the DevOps landscape
-had been vomited up into a tiered system. And my heart sank.
+^ System diagram
+^ In 2019 Cloud Foobar
+^ CTO and Platform
+^ System diagram and devops vomit
 
 ---
 
 ![inline](media/CloudFoobarySystemDiagram.png)
 
-^ It may be hard to see, but from the bottom up, you see, data 
-centers, AND cloud. Windows, and Linux. CloudFoundry AND Openshift AND 
-Kubernetes. Name a Database - there it is. SaaS and PaaS and IaaS.
+^ Note Components
 
-^ The stated goals were to be developer-friendly and delivery-
-focussed with built-in security and compliance.
+^ 2 hour env provisioni
 
-^So I asked: "And how is this working out for customers ALREADY working
-with this system?" 
+^ DevEx focussed, Delivery enabling
 
-^And as you might fear: They had no users, and they had no user 
-experience team. They we're going to build the system, and it would "just work"
+^ security and compliance and governance
 
-^I sensed that this project was destined to fail.
-I knew that from working on teams that practiced lean product
-design the importance of getting real customers onto a system
-as soon as it provided a working experience.
-
-^I wasn't in a position to critique their
-approach, but I wished there was a pithy way to point out the
-fundamental misstep they had made.
+^I wasn't in a position to critique 
 
 ---
 
@@ -70,10 +49,6 @@ fundamental misstep they had made.
 
 * Eponymous Principle:  a law named for a person (from Greek eponymos "given as a name")
 * Mnemonic Rule:  a trick for recall (from Greek mnēmē "memory")
-
-^ I need to reference a well-established eponymous principle,
-that is, a one named for a person, from the Greek,
-and I would've also need a trick to recall said rule, from the Greek.
 
 ^ So about mnemonic tricks, I like this quote:
 
@@ -126,11 +101,7 @@ crap and the eons long evolution of poop, that is:
 * Every complex system that works has evolved from a simple system that works.
 * Mnemonic: Graphic imagery, digestive system, and **GALL** bladders
 
-^So the crappy system diagram brings me around from crap to
-worm crap, to human crap, to the Gall bladder, and I can invoke
-Gall's Law:
-
-^Every complex system that works has evolved from a simple system that works.
+^ And that's IS how I would respond today w/ complex proposals (OSCAL anyone?)
 
 ^How this works...  And welcome!
 
@@ -139,19 +110,14 @@ Gall's Law:
 # Mnemonic Tricks for Eponymous Principles
 
 * Peter Burkholder _(he/him)_
-* US Gov (Cloud.gov), Chef Software, ..., Research Labs
-* Geophysicist
+* US Gov (Cloud.gov), Chef Software, Audax Health, AARP, NIH, Research Labs
+* Geophysicist / Seismologist
 
-^Hi, I'm Peter Burkholder, and welcome to Mnemonic Rule for Eponymous
-Principles. I'm currently a customer success engineer for Cloud.gov, the
-US Government's Platform-as-a-Service for Public Service. Before that, 
-I worked at Chef, Audax Health, the US National Institutes of
-Health and various labs 
-because I first came into Unix administration as a graduate student in 
-seismology.
+[.build-lists: false]
 
 ^I'm glad to be here today to share with you the eponymous principles I have found 
 useful in my work, and the mnemonic tricks I use to call them up, some context on how to apply them.
+
 
 ---
 
@@ -170,12 +136,10 @@ the backing of experience and empirical evidence.
 
 ^You can't really argue w/ Newton's law (unless relativistic)
 
-^Because
-while Murphys Law doesn't have evident per se, it is
-still the backbone of our work in Disaster Recovery plan, 
-business continuity plans and much else the SRE community does.
+^ Murphys Law - true in experience, basis of our work
 
 ^And Moore's Law (paraphrased here) has mostly held true for over 50 years
+and helps us anticipate
 
 
 ---
@@ -198,9 +162,9 @@ lived experience and has predictive value.
 
 ![inline](media/CloudFate.png)
 
-^Indeed, as I expected, the overburdend overcomplex CloudFactory
-service collapsed under it's own weight, demonstrating, if not
-proving, Gall's Law. So on to our tour of other laws:
+^ 2 Weeks! Over budget
+^ Collapsed
+^ on to our tour of other laws:
 
 ---
 
@@ -238,18 +202,16 @@ Matthew Skelton & Manuel Pais, 2019
 "Adding [engineers] to a late software project makes it later"
 
 * _Fred Brooks, 1975, The Mythical Man Month_
-* Mnemonic: The **BROOK** went over the waterfall
+* Mnemonic: The **BROOK** went over the waterfall[^1]
 * Why: onboarding time + geometrical growth in communication lines
 
 ![right](./media/waterfall.png)
 
-^This is not true just of Waterfall development, but 
-Agile too, and there's good theoretical reasons. While a dam
-or skyscraper could be built faster with more workers,
-SW is constrained by the ability of team members to communicate
-about their work. The more engs you have, the more lines of 
-communication you have to maintain (let alone onboarding), and 
-the more work slows down.
+[^1]: James C. **Brooks**, @shootjamesshoot / instagram
+
+^ Water fall - Not dams and Skyscrapers
+^ Agile too
+^ SW is team members to communicate
 
 
 ---
@@ -269,9 +231,9 @@ total expenditure on the commodity grows
   * 2010s: Cloud spend
 * See also: Moore's Law
 
-^ James Watt had recently introduced his steam engine and some economists 
-were forecasting an end to the worsening pollution as the efficiency 
-of Watt’s new engine reduced the amount of coal burned for any given task.
+^ James Watt steam engine economists 
+forecasting an end to the pollution as the efficiency 
+of Watt’s new engine reduced coal per task
 
 ^ If anyone you're talking to thinks cloud spend is going to go
 down, brandish this. Cloud spend provides returns on your spend
@@ -296,18 +258,38 @@ that simply encourage more spend. Same with Coal, and fuel efficiency.
 "the vital few and the useful many" (or the 80/20) rule
 
 * _Joseph Juran, inspired by Vilifredo Pareto, 1941_
-* Mnemonic: _(under construction)_
 * 80% of a project is complete in 20% of the time
+* Mnemonic: 
+  **PARE** down **TO** 80% of work with 20% effort
 * Validity: Power-law distribution in process variation
   * or a _Pareto Distribution_
+
+^ Uses: Focus on the 20% most critical findings, 
+to take care of 80% of your risk
+
+---
+
+![](./media/pareto.png)
+
+^ Inverse of an expoential curve
+
+---
+
+# Pareto Distributions
+
+* Earthquake magnitudes
+* Size of files transferred on a network
+* Crimes committed by individuals
+* Consecutive nights of being homeless
+* Generally: Confounding Factors
+
+![](./media/pareto.png)
 
 ---
 
 # Pareto Principle (2)
 
-"In the last six months, we've been able to 
-meet the needs of one-half of our users. We can meet the needs
-of the other half in another six months"
+"In the last six months, we've been able to meet the needs of one-half of our users. We can meet the needs of the other half in another six months"
 
 * Can you spot the problem here?
   
@@ -315,11 +297,7 @@ of the other half in another six months"
 whose parents didn't have SSNs, or had 2000 as birth
 year, makes me think...
 
-^SO MUCH SAY HERE! See notes
-
----
-
-Pareto Principle illustrated
+^ CHESTERTON's Fence
 
 ---
 
@@ -492,8 +470,8 @@ by **Gall's Law**.
 # Fill in the blank
 
 We've met the needs of 80% of our users in two
-sprints, so by the ______ ______ we'll need another
-_____ sprints for the other 20%.
+sprints, so by the ______ ______ we may need another
+**eight** sprints for the other 20%.
 
 ---
 
@@ -502,6 +480,22 @@ _____ sprints for the other 20%.
 We've met the needs of 80% of our users in two
 sprints, so by **Pareto Principle** we'll need another
 **eight** sprints for the other 20%.
+
+---
+
+# How do you respond?
+
+Argument: We're vastly improving the energy efficiency of LLMs, so don't worry about the environmental impact.
+
+Response: Sorry, but are you familiar with ______ ______ ??
+
+---
+
+# How do you respond?
+
+Argument: We're vastly improving the energy efficiency of LLMs, so don't worry about the environmental impact.
+
+Response: Sorry, but are you familiar with **Jevons' Paradox**??
 
 
 ---
