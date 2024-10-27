@@ -4,7 +4,7 @@ slide-transition: fade(0.2)
 slidenumbers: true
 autoscale: true
 footer: @pburkholder, 2024 SRECon EMEA
-build-lists: true
+<!-- build-lists: true -->
 
 # Mnemonic Rules for Eponymous Laws
 
@@ -20,22 +20,21 @@ build-lists: true
 # Brace yourself...
 
 ^ System diagram
-^ In 2019 Cloud Foobar
+^ In 2019 Cloud System
 ^ CTO and Platform Team
-^ System diagram and devops vomit
+^ System diagram and devops deck
 
 ---
 
 ![inline](media/CloudFoobarySystemDiagram.png)
 
-^ Note Components
-
-^ 2 hour env provisioni
+^ IAAS & DCs,  Kubernetes and CloudFoundry & Openshift
+Windows and RHEL and "Unix/Linux"
+All the Databases, A Drupal cherry on top
+TWO Hour provisioning
 
 ^ DevEx focussed, Delivery enabling
-
 ^ security and compliance and governance
-
 ^I wasn't in a position to critique 
 
 ---
@@ -57,11 +56,12 @@ build-lists: true
 # Mnemonic Tricks
 
 > To build a memory ... it has to be a little bit weird
--- Per Sederberg (Univeristy of Virginia)
+-- Per Sederberg (Psychologist, Univeristy of Virginia)
 
 ^ weird, gross, or embarrassing.
 Make them stick. 
 Make them work
+I will not apologize for them, PRs welcome
 My thought process now
 
 ---
@@ -76,7 +76,7 @@ atop that, I visualize a poo emoji.
 ![inline](media/CloudFoobaryPoo.png)
 
 ^poop. and not just metaphorical poo but I ponder literal
-crap and the eons long evolution of poop, that is:
+feces and the eons long evolution of excrement, that is:
 
 ---
 
@@ -86,7 +86,7 @@ crap and the eons long evolution of poop, that is:
 
 * Worm Digestion: 
   * A simple system that works
-  * Eat continually, liver produces bile continuously
+  * Eats continually, digestive system produces bile continuously
 * Human digestion:
   * A complex systems that works
   * We eat big meals, liver stores bile in the **GALL**bladder
@@ -101,7 +101,7 @@ crap and the eons long evolution of poop, that is:
 * Every complex system that works has evolved from a simple system that works.
 * Mnemonic: Graphic imagery, digestive system, and **GALL** bladders
 
-^ And that's IS how I would respond today w/ complex proposals (OSCAL anyone?)
+^ And that's IS how I would respond today w/ complex proposals 
 
 ^How this works...  And welcome!
 
@@ -111,13 +111,13 @@ crap and the eons long evolution of poop, that is:
 
 * Peter Burkholder _(he/him)_
 * US Gov (Cloud.gov), Chef Software, Audax Health, AARP, NIH, Research Labs
+* @pburkholder most places
 * Geophysicist / Seismologist / Physics Teacher
 * So: THERE WILL BE A **QUIZ**
 
 [.build-lists: false]
 
-^I'm glad to be here today to share with you the eponymous principles I have found 
-useful in my work, and the mnemonic tricks I use to call them up, some context on how to apply them.
+^Me, some of the places I've worked, and where to find me
 
 
 ---
@@ -131,10 +131,8 @@ useful in my work, and the mnemonic tricks I use to call them up, some context o
 * Moore's Law
   * Compute power doubles every two years
   
-^There is weight that is not merely
-rhetorical "argument from authority" but should have
+^Not merely rhetorical "argument from authority" but should have 
 the backing of experience and empirical evidence. 
-
 
 ---
 
@@ -143,9 +141,6 @@ the backing of experience and empirical evidence.
 * True - with empirical evidence, or
 * True - with weight of lived experience
 * Predictive or explanatory value
-
-^ So, in addition to having "truth value it should 
-also have predictive or explanatory value
 
 ^ Consider Gall's Law in this light: It is true from
 lived experience and has PREDICTIVE VALUE.
@@ -157,8 +152,8 @@ lived experience and has PREDICTIVE VALUE.
 ![inline](media/CloudFate.png)
 
 ^ 2 Weeks provisioning! Over budget
-^ Collapsed
-^ on to our tour of other laws:
+^ Collapsed under its own weight
+^ on to our tour of other laws. Likely familiar with:
 
 ---
 
@@ -168,7 +163,7 @@ lived experience and has PREDICTIVE VALUE.
 
 * _Melvin Conway, 1968_
 * Or: Your architecture will mirror your org chart
-* _Mnemonic_: We **CON**struct systems mirroring the **WAY** we communicate (👷🏽‍♀️➡️)
+* _Mnemonic_: We **CON**struct systems mirroring the **WAY** we communicate
 * Application: ...
 
 ^Pathological organization cultures and structures
@@ -188,6 +183,8 @@ will result in pathological technical systems.
 
 ^Thoughtworks blog post 2015.
 Matthew Skelton & Manuel Pais, 2019
+
+^Another old chestnut:
 
 --- 
 
@@ -225,34 +222,31 @@ total expenditure on the commodity grows
   * 2010s: Cloud spend
 * See also: Moore's Law
 
-^ James Watt steam engine economists 
-forecasting an end to the pollution as the efficiency 
-of Watt’s new engine reduced coal per task
+^ James Watt steam engine. Better Efficient per unit Coal
+Economist expected end to coal pollution.
 
-^ If anyone you're talking to thinks cloud spend is going to go
-down, brandish this. Cloud spend provides returns on your spend
-that simply encourage more spend. Same with Coal, and fuel efficiency.
-
+^ Cloud spend does not go down with price per compute unit.
 
 ---
 
 # Jevons' Mnemonic
 
 * As price goes down
-  **J**ust **EVEN** more demand
+  **J**ust **EVEN** more demand, or
 * Falling **JAVE**lin goes ever farther
 
 ![left](./media/javeleer.png)
 ![right](./media/jevon_mnemonic.png)
 
+^ No apologies for mnemonic.
+
 ---
 
 # Pareto Principle
 
-"the vital few and the useful many" (or the 80/20) rule
+The 80/20 rule: 80% of a project is complete in 20% of the time
 
 * _Joseph Juran, inspired by Vilifredo Pareto, 1941_
-* 80% of a project is complete in 20% of the time
 * Mnemonic: 
   **PARE** down **TO** 80% of work with 20% effort
 * Validity: Power-law distribution in process variation
@@ -265,7 +259,7 @@ to take care of 80% of your risk
 
 ![](./media/pareto.png)
 
-^ Inverse of an expoential curve
+^ Inverse of an exponential curve
 
 ---
 
@@ -287,17 +281,15 @@ to take care of 80% of your risk
 
 * Can you spot the problem here?
   
-^I'm speculating here, but FAFSA.... and students
-whose parents didn't have SSNs, or had 2000 as birth
-year, makes me think...
+^I'm speculating here, but 
 
-^ CHESTERTON's Fence
+^ Next, consider these words from GK Chesterton:
 
 ---
 
-> If you don’t see the use of [a fence], I certainly won’t let you clear it away. Go away and think. 
+> If you don’t see the use of [a fence]... Go away and think. 
 > <br>
-> Then, when you can come back and tell me that you do see the use of it, I may allow you to destroy it.
+>  When you can ... tell me the use of it, I may allow you to destroy it.
 -- G. K. Chesterton, 1929
 
 ^ The Foolish Reformer will remove any fence in their way
@@ -317,6 +309,8 @@ Do not remove a fence until you know why it was put up in the first place.
 
 ![left](./media/fence.png)
 
+^ Any project more than a year old, especially platforms...
+
 ---
 
 # Meme Laws
@@ -331,31 +325,28 @@ Do not remove a fence until you know why it was put up in the first place.
 
 # Meme Laws
 
-* Hanlon's Razor
-
+### Hanlon's Razor
   "Never attribute to malice what is better explained by incompetence"
-  -- Apocraphally __Robert A. Heinlein__
-* Cranstoning
-  -- See also "Yak Shaving"
-
+  -- _Unknown_
+* Mnemonic: Never attribute to _conspiracy_ what is better explained by incompetence
+  -- Apocryphally __Robert A. Heinlein__
+  
 ![right,fit](./media/puppetmasters.jpg)
 
----
+^ No Hanlon known, maybe Heinlein mangled.
 
-Cranstoning
-
-![](https://www.youtube.com/watch?v=AbSehcT19u0)
 
 ---
 
-# Meme Laws (cont.)
+<!-- # Meme Laws (cont.) --> 
 
-* Cunningham's Law
+### Cunningham's Law
 
    "The best way to get the right answer on the internet is not to ask a question; it's to post the wrong answer."
   -- _Ward Cunningham_
   * Mnemonic: Knowledge is COMING HOME when you post the wrong answer
-* Hofstadter's Law
+
+### Hofstadter's Law
 
    "It always takes longer than you expect, even when you take into account Hofstadter’s Law."
   -- _Douglas Hofstatder, 1979_ 
@@ -363,31 +354,45 @@ Cranstoning
 
 ![right, fit](./media/GodelEscherBach_well_loved.jpg)
 
-^TEXT: Then: Hofstader's Law may not be a  meme law, nor are 
-laws that are corollarys to it, can straddle between meme laws
-and useful laws.
+^TEXT: Then: Hofstader's Law may not be a meme law, 
+straddle between meme laws and useful laws.
 
 ---
 
 # Whong's Law 
 
 "Every government agency, everywhere is working on a “new system”; It will solve all of their data problems and will be ready to use in 18-24 months."
+-- _Chris Whong, 2018_
 
-* _Chris Whong, 2018_
 * Mnemonic: Data throng done long? Wrong, says Whong.
-
-^The timeline here is key. In six months, the system will still be 18-24 months away.
-That system diagram we saw in the beginning? How far from completion do you think it way. (Pause)
-18-24 months.
-
 * See also: Gall's Law, Pareto Principle
 
+^The timeline here is key. system will still be 18-24 months away.
 ^Predictive value: If you come across this: insist that is solve 1 problem for 1 user in 1 month.
 (The TTS DevTools team is living this with their work on Rails Template)
 
 ---
 
 # Quiz Time
+
+[.column]
+* Galls' Law
+* Conway's Law
+* Brooks' Law
+* Jevon's Paradox
+* Pareto Principle
+
+[.column]
+* Chesterton's Fence
+* Hanlon's Law
+* Cunningham's Law
+* Hofstatder's Law
+* Whong's Law
+
+
+^ I'm going to count down from three, and 
+you'll call out the answer. Are you ready for a 
+quiz? 3,2,1, ..... (Try again)
 
 ---
 
@@ -411,7 +416,7 @@ Answer:
 
 
 To meet the specified contract deadlines,
-we've added a DevOps team. But now we're further behind schedule.
+we've added a DevOps team. But now we're further behind schedule!
 
 Answer:
 
@@ -469,7 +474,7 @@ sprints, so by the ______ ______ we may need another
 
 ---
 
-# Answer
+# Answer: Pareto Principle
 
 We've met the needs of 80% of our users in two
 sprints, so by **Pareto Principle** we'll need another
@@ -483,9 +488,11 @@ Argument: We're vastly improving the energy efficiency of LLMs, so don't worry a
 
 Response: Sorry, but are you familiar with ______ ______ ??
 
+^ This is a harder one
+
 ---
 
-# How do you respond?
+# Answer: Jevon's Paradox
 
 Argument: We're vastly improving the energy efficiency of LLMs, so don't worry about the environmental impact.
 
@@ -508,9 +515,6 @@ Response: Sorry, but are you familiar with **Jevons' Paradox**??
 
 # Thank you
 
-Summary Slide
-
-
 And laws to look forward to in a future version
 
 * Overton Window
@@ -520,11 +524,9 @@ And laws to look forward to in a future version
 * Parkinson's Law
 * Goodhart's Law
 
-[.build-lists: false]
-
 ---
 
-# Resources
+## Resources
 
 * This talk: https://github.com/pburkholder/eponymous-principles
 * Laws of Software: <https://laws-of-software.com>
