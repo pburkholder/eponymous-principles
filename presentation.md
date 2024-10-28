@@ -4,7 +4,6 @@ slide-transition: fade(0.2)
 slidenumbers: true
 autoscale: true
 footer: @pburkholder, 2024 SRECon EMEA
-<!-- build-lists: true -->
 
 # Mnemonic Rules for Eponymous Laws
 
@@ -167,7 +166,7 @@ lived experience and has PREDICTIVE VALUE.
 
 ^More recently: Collapsed under its own weight
 
-^on to our tour of other laws. Likely familiar with:
+^on to our tour of other laws I've found useful. Likely familiar with:
 
 ---
 
@@ -265,29 +264,40 @@ The 80/20 rule: 80% of a project is complete in 20% of the time
 * _Joseph Juran, inspired by Vilifredo Pareto, 1941_
 * Mnemonic: 
   **PARE** down **TO** 80% of work with 20% effort
-* Validity: Power-law distribution in process variation
-  * or a _Pareto Distribution_
+* Statistically: Power-law probability distribution 
+  * _Pareto Distribution_
 
-^ Uses: Focus on the 20% most critical findings, 
-to take care of 80% of your risk
+^ Example: In a security context, focus on the 
+20% most critical findings, 
+to take care of 80% of your risk 
+
+^ Many of the things we work with follow a P.D., which is
+
+
+
 
 ---
 
-![](./media/pareto.png)
-
-^ Inverse of an exponential curve
-
----
+^ Inverse of an exponential curve, with a distinct boundary condition, such as, rainfall will always be a positive number
 
 # Pareto Distributions
 
+Many small instances, but a few significant instances may
+account for most of the impact
+
 * Earthquake magnitudes
+* Rainfall events
 * Size of files transferred on a network
-* Crimes committed by individuals
-* Consecutive nights of being homeless
+* Size of human settlements
 * Generally: Confounding Factors
 
 ![](./media/pareto.png)
+
+^Pareto Distributions seen in systems both 
+natural and of human origin. 
+
+^So think in terms of "Confounding
+Factors", as in this example:
 
 ---
 
@@ -297,7 +307,10 @@ to take care of 80% of your risk
 
 * Can you spot the problem here?
   
-^I'm speculating here, but 
+^You've focussed on users with only a few factors to consider,
+ignoring the ones who are non-native speakers, 
+or names that don't fit your initial data model. You
+are nowhere near 1/2 done.
 
 ^ Next, consider these words from GK Chesterton:
 
@@ -308,9 +321,6 @@ to take care of 80% of your risk
 >  Then, when you can ... tell me the use of it, I may allow you to destroy it.
 -- G. K. Chesterton, 1929
 
-^ The Foolish Reformer will remove any fence in their way
-
-^ The Intelligent Reformer will say:
 
 ---
 
@@ -350,7 +360,6 @@ Do not remove a fence until you know why it was put up in the first place.
 ![right,fit](./media/puppetmasters.jpg)
 
 ^ No Hanlon known, maybe Heinlein mangled.
-
 
 ---
 
@@ -485,21 +494,6 @@ by **Gall's Law**.
 
 * 💩 architecture -> digestion -> evolution -> Gall bladder
 
----
-
-# Fill in the blank
-
-We've met the needs of 80% of our users in two
-sprints, so by the ______ ______ we may need another
-**eight** sprints for the other 20%.
-
----
-
-# Answer: Pareto Principle
-
-We've met the needs of 80% of our users in two
-sprints, so by **Pareto Principle** we'll need another
-**eight** sprints for the other 20%.
 
 ---
 
@@ -509,7 +503,8 @@ Argument: We're vastly improving the energy efficiency of LLMs, so don't worry a
 
 Response: Sorry, but are you familiar with ______ ______ ??
 
-^ This is a harder one
+^This one is a bit harder
+
 
 ---
 
@@ -544,6 +539,8 @@ And laws to look forward to in a future version
 * Metcalf's Law
 * Parkinson's Law
 * Goodhart's Law
+
+### And thank you to Usenix and the SRECon organizers
 
 ---
 
