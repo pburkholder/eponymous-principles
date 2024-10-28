@@ -20,29 +20,35 @@ footer: @pburkholder, 2024 SRECon EMEA
 # Brace yourself...
 
 ^ System diagram
-^ In 2019 Cloud System
-^ CTO and Platform Team
-^ System diagram and devops deck
+In 2019, Another Gov Dept
+CTO Office and Platform Team
+
+^ DevEx focussed, Delivery enabling
+security and compliance and governance
+
+^Shuffled the deck of technologies and dealt them
 
 ---
 
 ![inline](media/CloudFoobarySystemDiagram.png)
 
 ^ IAAS & DCs,  Kubernetes and CloudFoundry & Openshift
-Windows and RHEL and "Unix/Linux"
-All the Databases, A Drupal cherry on top
-TWO Hour provisioning
 
-^ DevEx focussed, Delivery enabling
-^ security and compliance and governance
-^I wasn't in a position to critique 
+^Windows and RHEL and "Unix/Linux"
+
+^All the Databases, A Drupal cherry on top
+
+^ TWO Hour provisioning
+
+
+^ Asked input, smelled failure, asked about DevEx, but
 
 ---
 
 # What I said:
 
 * How are you focussing on user experience without any users?
-* Yada, yada, Agile Development... Blah, blah, blah, Lean Enterprise, etc.
+* Agile Development... Blah, blah, blah, Lean Enterprise, .... MVP
 
 # What I needed:
 
@@ -56,7 +62,7 @@ TWO Hour provisioning
 # Mnemonic Tricks
 
 > To build a memory ... it has to be a little bit weird
--- Per Sederberg (Psychologist, Univeristy of Virginia)
+-- Per Sederberg (Psychologist, University of Virginia)
 
 ^ weird, gross, or embarrassing.
 Make them stick. 
@@ -129,10 +135,16 @@ feces and the eons long evolution of excrement, that is:
 * Murphy's Law
   * Everything that can go wrong will
 * Moore's Law
-  * Compute power doubles every two years
+  * Compute power doubles every two years (so far)
   
 ^Not merely rhetorical "argument from authority" but should have 
 the backing of experience and empirical evidence. 
+
+^ Newton: Evidence and Theory
+
+^ Murphy: Lived experience, basis of SRE practice
+
+^ Moore's Law: faster and cheaper is coming
 
 ---
 
@@ -151,9 +163,11 @@ lived experience and has PREDICTIVE VALUE.
 
 ![inline](media/CloudFate.png)
 
-^ 2 Weeks provisioning! Over budget
-^ Collapsed under its own weight
-^ on to our tour of other laws. Likely familiar with:
+^ A few years ago: 2 Weeks provisioning! Over budget 
+
+^More recently: Collapsed under its own weight
+
+^on to our tour of other laws. Likely familiar with:
 
 ---
 
@@ -200,7 +214,7 @@ Matthew Skelton & Manuel Pais, 2019
 
 [^1]: James C. **Brooks**, @shootjamesshoot / instagram
 
-^ Water fall - Not dams and Skyscrapers
+^ Water fall - Dominant in 1970s - Not dams and Skyscrapers
 ^ Agile too
 ^ SW is team members to communicate
 
@@ -225,15 +239,17 @@ total expenditure on the commodity grows
 ^ James Watt steam engine. Better Efficient per unit Coal
 Economist expected end to coal pollution.
 
+^ Explain the graph
+
 ^ Cloud spend does not go down with price per compute unit.
 
 ---
 
-# Jevons' Mnemonic
+# Jevons' Mnemonics
 
 * As price goes down
   **J**ust **EVEN** more demand, or
-* Falling **JAVE**lin goes ever farther
+* Falling **JAVE**li**N** goes ever farther
 
 ![left](./media/javeleer.png)
 ![right](./media/jevon_mnemonic.png)
@@ -289,7 +305,7 @@ to take care of 80% of your risk
 
 > If you don’t see the use of [a fence]... Go away and think. 
 > <br>
->  When you can ... tell me the use of it, I may allow you to destroy it.
+>  Then, when you can ... tell me the use of it, I may allow you to destroy it.
 -- G. K. Chesterton, 1929
 
 ^ The Foolish Reformer will remove any fence in their way
@@ -357,6 +373,8 @@ Do not remove a fence until you know why it was put up in the first place.
 ^TEXT: Then: Hofstader's Law may not be a meme law, 
 straddle between meme laws and useful laws.
 
+^(do not say I don't use this mnenonic)
+
 ---
 
 # Whong's Law 
@@ -367,9 +385,12 @@ straddle between meme laws and useful laws.
 * Mnemonic: Data throng done long? Wrong, says Whong.
 * See also: Gall's Law, Pareto Principle
 
-^The timeline here is key. system will still be 18-24 months away.
-^Predictive value: If you come across this: insist that is solve 1 problem for 1 user in 1 month.
-(The TTS DevTools team is living this with their work on Rails Template)
+
+^Not just gov, but any large legacy organization. Remember the Cloud Platform?
+Also a Whong's Law example
+
+^The timeline is key. system will still be 18-24 months away.
+Predictive value:  ask if it can solve 1 problem for 1 user in 1 month.
 
 ---
 
