@@ -7,7 +7,7 @@ footer: @pburkholder, 2024 SRECon EMEA
 
 # Mnemonic Rules for Eponymous Laws
 
-* SRECon EMEA 2024
+* SRECon EMEA 2024  , 2024-10-29
 * Peter Burkholder
 
 [.build-lists: false]
@@ -118,8 +118,8 @@ feces and the eons long evolution of excrement, that is:
 # Mnemonic Tricks for Eponymous Principles
 
 * Peter Burkholder _(he/him)_
-* US Gov (Cloud.gov), Chef Software, Audax Health, AARP, NIH, Research Labs
-* @pburkholder most places
+* US Gov (Cloud.gov), Chef Software, NIH, NCAR, PacNW Seismic Lab
+* @pburkholder most places (bsky, LI, infosec.exchange)
 * Geophysicist / Seismologist / Physics Teacher
 * So: THERE WILL BE A **QUIZ**
 
@@ -304,7 +304,7 @@ Factors", as in this example:
 
 ---
 
-# Pareto Principle (2)
+# Pareto Principle
 
 "In the last six months, we've been able to meet the needs of one-half of our users. We can meet the needs of the other half in another six months"
 
@@ -333,7 +333,7 @@ Do not remove a fence until you know why it was put up in the first place.
 
 * Mnemonic: That **CHEST** behind the **FENCE** - it may be a danger!
 * Application:
-  * Comments, ADRs (Architectural Decision Records), PRs
+  * Code Comments, ADRs (Architectural Decision Records), Pull/Merge Requests
   * Employee Retention
 
 ![left](./media/fence.png)
@@ -547,8 +547,11 @@ And laws to look forward to in a future version
 * Dunning Kruger
 * Metcalf's Law
 * Parkinson's Law
+* Dunbar's Number
 
 ### And thank you to Usenix & the SRECon organizers
+
+^Effie and Murali
 
 ---
 
@@ -581,3 +584,19 @@ Image rights
   * with Futura
 * Javeleer: https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Javeleer.png/640px-Javeleer.png
 * 
+
+---
+
+# Intro: 
+
+Peter is an engineer for the U.S. Government's Cloud.gov.  His prior
+stints include Chef Software, the U.S. National Institutes of Health,
+and the Pacific Northwest Seismic Labs.
+
+The two skills he still uses from graduate study in seismology
+is knot tying and the Unix command line.  Thanks to Usenix LISA
+he made a career of the latter.
+
+This talk is free of AI-generated imagery.
+
+Question: I saw the G.I. Joe Fallacy on the closing slide - what is that?? 
