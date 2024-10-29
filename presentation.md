@@ -14,6 +14,8 @@ footer: @pburkholder, 2024 SRECon EMEA
 
 ^Good afternoon and thanks for being here. Let's dive in...
 
+^LANYARD AWAY
+
 ---
 
 # Brace yourself...
@@ -41,6 +43,7 @@ security and compliance and governance
 
 
 ^ Asked input, smelled failure, asked about DevEx, but
+told no users
 
 ---
 
@@ -347,6 +350,9 @@ Do not remove a fence until you know why it was put up in the first place.
 * ~~Predictive or explanatory value~~
 * Build Community
 
+^Meme Laws useful to build community, and
+help make connections. Some examples:
+
 ---
 
 # Meme Laws
@@ -359,7 +365,10 @@ Do not remove a fence until you know why it was put up in the first place.
   
 ![right,fit](./media/puppetmasters.jpg)
 
-^ No Hanlon known, maybe Heinlein mangled.
+^ No know attribution for anyone named Hanlon, so
+mnemonic is recall the SF writer's 
+Robert Heinlein's CONSPIRACY
+based fiction the PuppetMasters 
 
 ---
 
@@ -455,16 +464,13 @@ Answer:
 * ~~Conway's Law~~
 * Mnemonic: The **BROOK** goes over the waterfall
 
-[.build-lists: false]
-  
 ---
 
 # Fill in the blank
 
 We have five teams assigned to a system that only has three 
-major components. Time to apply an Inverse ________ Maneuver
+major components. Time to apply an Inverse ______ Maneuver
 so we don't end up with five subsystems.
-
 
 ---
 
@@ -474,7 +480,7 @@ We have five teams assigned to a system that only has three
 major components. Time to apply an Inverse **Conway** Maneuver
 so we don't end up with five subsystems.
 
-* We CONstruct systems the same WAY we're organized
+* We **CON**struct systems the same **WAY** we're organized
 
 ---
 
@@ -492,14 +498,14 @@ This proposed architecture is too complex. We'll have to start
 with a simpler initial _working_ solution, otherwise we're doomed
 by **Gall's Law**.
 
-* 💩 architecture -> digestion -> evolution -> Gall bladder
+* 💩 architecture -> digestive evolution -> **GALL** bladder
 
 
 ---
 
 # How do you respond?
 
-Argument: We're vastly improving the energy efficiency of LLMs, so don't worry about the environmental impact.
+Argument: We're vastly improving the energy efficiency of Large Language Models, so don't worry about the environmental impact.
 
 Response: Sorry, but are you familiar with ______ ______ ??
 
@@ -510,9 +516,11 @@ Response: Sorry, but are you familiar with ______ ______ ??
 
 # Answer: Jevon's Paradox
 
-Argument: We're vastly improving the energy efficiency of LLMs, so don't worry about the environmental impact.
+Argument: We're vastly improving the energy efficiency of Large Language Models, so don't worry about their environmental impact.
 
 Response: Sorry, but are you familiar with **Jevons' Paradox**??
+
+Mnemonic: **J**ust **EVEN** more demand as efficiency improves.
 
 
 ---
@@ -533,14 +541,14 @@ Response: Sorry, but are you familiar with **Jevons' Paradox**??
 
 And laws to look forward to in a future version
 
+* Goodhart's Law
 * Overton Window
 * G.I. Joe Fallacy
 * Dunning Kruger
 * Metcalf's Law
 * Parkinson's Law
-* Goodhart's Law
 
-### And thank you to Usenix and the SRECon organizers
+### And thank you to Usenix & the SRECon organizers
 
 ---
 
