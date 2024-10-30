@@ -288,8 +288,8 @@ to take care of 80% of your risk
 Many small instances, but a few significant instances may
 account for most of the impact
 
-* Earthquake magnitudes
 * Rainfall events
+* Earthquake magnitudes
 * Size of files transferred on a network
 * Size of human settlements
 * Generally: Confounding Factors
@@ -310,9 +310,10 @@ Factors", as in this example:
 
 * Can you spot the problem here?
   
-^You've focussed on users with only a few factors to consider,
-ignoring the ones who are non-native speakers, 
-or names that don't fit your initial data model. You
+^They've focussed on users with only a few factors to consider,
+ignoring the ones who are don't fit as neatly:
+names that don't fit your initial data model, or
+running older devices. You
 are nowhere near 1/2 done.
 
 ^ Next, consider these words from GK Chesterton:
